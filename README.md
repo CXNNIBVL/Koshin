@@ -17,9 +17,9 @@ By default, this command will print the path of the Koshin Index file. If it doe
 With the `-ls/--list` flag, the command will print all the repositories tracked by Koshin.
 #### Usage
 To print the path
-`koshin index`
+```koshin index```
 To print the repositories
-`koshin index -ls`
+```koshin index -ls```
 #### Options
 `-ls/--list` To list the repositories
 
