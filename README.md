@@ -13,7 +13,7 @@ Each Command also comes with a help page that can be acquired by appending the `
 
 ### Index
 #### Description
-By default, this command will print the path of the Koshin Index file. If it does not exist, then it will be created.
+By default, this command will print the path of the Koshin Index file. If it does not exist, then it will be created in `!!FIXME/PATH`.
 With the `-ls/--list` flag, the command will print all the repositories tracked by Koshin.
 #### Usage
 To print the path
