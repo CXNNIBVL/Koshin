@@ -46,14 +46,23 @@ This invocation will require you to fill out the details at runtime
 ```
 koshin new
 ```
-This invocation is complete and will not require additional details
+This invocation is complete and will not require additional details. By default the directory will be created in the cwd.
 ```
-koshin new -p YOUR_PATH -n DIR_NAME
+koshin new -n DIR_NAME
 ```
 #### Options
-`-p/--path` Path to the host directory
-`-n/--name` Name of the created directory
-`-r/--remote` Link to remote repository (eg. GitHub/GitLab etc.)
+Path to the host directory
+```
+-p/--path
+```
+Name of the created directory
+```
+-n/--name
+```
+Link to remote repository (eg. GitHub/GitLab etc.)
+```
+-r/--remote
+```
 
 ---
 
